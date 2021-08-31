@@ -1,5 +1,3 @@
-package designPattern.structure;
-
 public class DecoratorTest {
     public static void main(String[] args) {
         ConcreteComponent component = new ConcreteComponent();

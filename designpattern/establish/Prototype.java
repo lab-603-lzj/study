@@ -1,5 +1,3 @@
-package designPattern.establish;
-
 public class Prototype implements Cloneable {
 
     public String tmp = "test";

@@ -1,5 +1,3 @@
-package designPattern.establish;
-
 // 饿汉模式是在类初始化时便实例化，懒汉模式是第一次调用getInstance时实例化
 // 双重校验模式相对与懒汉模式，没有线程安全问题
 

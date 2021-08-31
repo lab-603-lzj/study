@@ -1,5 +1,3 @@
-package designPattern.structure;
-
 public class Proxy {
     private Subject subject;
 

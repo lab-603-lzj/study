@@ -1,5 +1,3 @@
-package designPattern.structure;
-
 /**
  * 继承为类适配模式
  */

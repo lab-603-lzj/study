@@ -1,6 +1,3 @@
-package designPattern.structure;
-
-
 /**
  * 桥接模式通过注入接口，从而调用接口中的方法获取对象信息
  */

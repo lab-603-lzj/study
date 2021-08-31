@@ -1,5 +1,3 @@
-package designPattern.establish;
-
 public class SimpleFactory {
     public static Produce makeProduce(String kind){
         switch (kind){

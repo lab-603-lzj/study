@@ -1,4 +1,3 @@
-package designPattern.establish;
 
 public class AbstractFactory {
     public static void main(String[] args) {
