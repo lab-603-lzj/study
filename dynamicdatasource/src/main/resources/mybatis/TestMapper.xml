@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.TestMapper">
+
+    <select id="set" parameterType="com.example.entity.TestDto" resultType="java.lang.String">
+        select user_id from t_user_role where user_id=${key} and role_id${condition}${value}
+    </select>
+
+    <select id="setfor" parameterType="com.example.entity.TestDto" resultType="java.lang.String">
+        select user_id from t_user_role where
+        <foreach collection="list" item="item"  separator="or">
+            ( user_id=${item.key} and role_id${item.condition}${item.value} )
+        </foreach>
+    </select>
+
+    <select id="test" resultType="java.lang.String">
+        select a.org_name.test from api_company a where org_num='123'
+    </select>
+</mapper>
